@@ -15,7 +15,7 @@ if ($_POST['link']) {
         $mail->Mailer = "smtp";
         $mail->Port = 465;
         $mail->Username = "vasilije.vasilijevic.11.17@ict.edu.rs";
-        $mail->Password = "7LdxCBun420";
+        $mail->Password = ""; //ADD PASSWORD
         $mail->SMTPAuth   = true;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
